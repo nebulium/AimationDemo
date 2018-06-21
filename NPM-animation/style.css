@@ -1,0 +1,56 @@
+#long {
+	opacity: 0;
+	animation-name: show;
+	animation-delay: 1s;
+	animation-duration: .5s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+}
+@keyframes show {
+	to {
+		opacity: 1;
+	}
+}
+
+#N {
+	animation-name: N-move;
+	animation-duration: .5s;
+	animation-delay: .5s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+}
+@keyframes N-move {
+	to {
+		transform: translateX(-328px) translateY(0px);
+	}
+}
+
+#P {
+	animation-name: P-move;
+	animation-duration: .5s;
+	animation-delay: .5s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+}
+@keyframes P-move {
+	to {
+		transform: translateX(-177px) translateY(0px);
+	}
+}
+
+#M {
+	animation-name: M-move;
+	animation-duration: .5s;
+	animation-delay: .5s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+}
+@keyframes M-move {
+	to {
+		transform: translateX(93px) translateY(0px);
+	}
+}
